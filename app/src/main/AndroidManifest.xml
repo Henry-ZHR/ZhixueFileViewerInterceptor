@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  package="moe.henry_zhr.zhixue_fileviewer_interceptor">
+
+  <uses-permission android:name="com.github.kr328.intent.permission.INTERCEPT_INTENTS" />
+  <application
+    android:label="Zhixue FileViewer Interceptor"
+    tools:ignore="AllowBackup,MissingApplicationIcon">
+    <meta-data
+      android:name="interceptor"
+      android:value="moe.henry_zhr.zhixue_fileviewer_interceptor.Interceptor" />
+    <meta-data
+      android:name="target"
+      android:value="com.iflytek.elpmobile.smartlearning" />
+  </application>
+</manifest>
