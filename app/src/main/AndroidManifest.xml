@@ -12,6 +12,6 @@
       android:value="moe.henry_zhr.zhixue_fileviewer_interceptor.Interceptor" />
     <meta-data
       android:name="target"
-      android:value="com.iflytek.elpmobile.smartlearning" />
+      android:value="com.iflytek.elpmobile.smartlearning|com.iflytek.elpmobile.student" />
   </application>
 </manifest>
